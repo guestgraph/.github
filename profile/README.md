@@ -12,7 +12,7 @@ Guest data lives scattered across the PMS, POS, booking engine, loyalty program,
 
 ## 🧱 Principles
 
-- **Source records are immutable** — the golden profile is derived; original data is sacred
+- **Source records are immutable** — the golden profile is derived and can always be recomputed; corrections arrive as new records, never as edits
 - **Every merge is explainable and reversible** — identity resolution you can audit and trust
 - **Tenant-scoped from day one** — one instance serves many brands, properties, or customers
 - **API-first** — everything the engine can do is reachable over the REST API
