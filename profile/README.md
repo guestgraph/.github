@@ -1,6 +1,6 @@
 # GuestGraph
 
-**The open-source guest identity graph for hospitality.**
+**The open-source guest identity graph for hospitality.** → [**guestgraph.io**](https://guestgraph.io)
 
 Guest data lives scattered across the PMS, POS, booking engine, loyalty program, wifi portal, and review platforms — each with its own keys and its own version of the truth. GuestGraph resolves those scattered records into one unified, explainable golden profile per guest: the guest graph.
 
@@ -9,9 +9,10 @@ Guest data lives scattered across the PMS, POS, booking engine, loyalty program,
 | Repository | What it is |
 |---|---|
 | [**guestgraph**](https://github.com/guestgraph/guestgraph) | The core: identity resolution engine, guest graph, REST API |
-| [**talks**](https://github.com/guestgraph/talks) | Talks about it — start with the [10-minute introduction](https://guestgraph.github.io/talks/intro/) |
+| [**talks**](https://github.com/guestgraph/talks) | Talks about it — start with the [10-minute introduction](https://guestgraph.io/talks/intro/) |
+| [**guestgraph.github.io**](https://github.com/guestgraph/guestgraph.github.io) | The site at [guestgraph.io](https://guestgraph.io) — landing page and logo |
 
-**New here?** The [10-minute introduction](https://guestgraph.github.io/talks/intro/) is the
+**New here?** The [10-minute introduction](https://guestgraph.io/talks/intro/) is the
 fastest way in: why a returning guest looks like five strangers, what it costs to merge them
 wrongly, and how every decision stays explainable and reversible. DE · EN.
 
@@ -36,7 +37,8 @@ Connectors for real PMS, POS, and booking systems are next.
 The full roadmap, and what each phase actually delivered, lives with the code:
 [**roadmap →**](https://github.com/guestgraph/guestgraph#roadmap)
 
-Managed hosting, API, and MCP services are planned at [guestgraph.io](https://guestgraph.io).
+[guestgraph.io](https://guestgraph.io) is the home page. Managed hosting, API, and MCP services
+are planned there; the core stays open source either way.
 
 ---
 
