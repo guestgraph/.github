@@ -9,6 +9,11 @@ Guest data lives scattered across the PMS, POS, booking engine, loyalty program,
 | Repository | What it is |
 |---|---|
 | [**guestgraph**](https://github.com/guestgraph/guestgraph) | The core: identity resolution engine, guest graph, REST API |
+| [**talks**](https://github.com/guestgraph/talks) | Talks about it — start with the [10-minute introduction](https://guestgraph.github.io/talks/intro/) |
+
+**New here?** The [10-minute introduction](https://guestgraph.github.io/talks/intro/) is the
+fastest way in: why a returning guest looks like five strangers, what it costs to merge them
+wrongly, and how every decision stays explainable and reversible. DE · EN.
 
 ## 🧱 Principles
 
