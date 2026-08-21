@@ -18,12 +18,18 @@ Guest data lives scattered across the PMS, POS, booking engine, loyalty program,
 - **API-first** — everything the engine can do is reachable over the REST API
 - **Apache 2.0** — the core is and will remain open source
 
-## 🗺️ Roadmap
+Matching is layered by confidence: shared strong identifiers merge outright, probabilistic
+scoring only merges above a threshold each tenant chooses, and everything else queues for a
+human whose decisions stick. Automatic fuzzy merging ships **off** —
+[how matching decides →](https://github.com/guestgraph/guestgraph/blob/main/docs/matching.md)
 
-1. 🚧 **Core** — deterministic, probabilistic-ready identity resolution *(in development)*
-2. **Probabilistic matching** — fuzzy/ML resolution with human review queue
-3. **Timeline** — the unified guest journey across all touchpoints
-4. **Connectors** — PMS, POS, and booking system integrations
+## 🗺️ Where we are
+
+Identity resolution — deterministic and probabilistic — and the guest timeline are built.
+Connectors for real PMS, POS, and booking systems are next.
+
+The full roadmap, and what each phase actually delivered, lives with the code:
+[**roadmap →**](https://github.com/guestgraph/guestgraph#roadmap)
 
 Managed hosting, API, and MCP services are planned at [guestgraph.io](https://guestgraph.io).
 
