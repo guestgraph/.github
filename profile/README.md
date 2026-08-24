@@ -10,7 +10,7 @@ Guest data lives scattered across the PMS, POS, booking engine, loyalty program,
 |---|---|
 | [**engine**](https://github.com/guestgraph/engine) | The core: identity resolution engine, guest graph, REST API |
 | [**talks**](https://github.com/guestgraph/talks) | Talks about it — start with the [10-minute introduction](https://guestgraph.io/talks/intro/) |
-| [**guestgraph.github.io**](https://github.com/guestgraph/engine.github.io) | The site at [guestgraph.io](https://guestgraph.io) — landing page and logo |
+| [**guestgraph.github.io**](https://github.com/guestgraph/guestgraph.github.io) | The site at [guestgraph.io](https://guestgraph.io) — landing page and logo |
 
 **New here?** The [10-minute introduction](https://guestgraph.io/talks/intro/) is the
 fastest way in: why a returning guest looks like five strangers, what it costs to merge them
