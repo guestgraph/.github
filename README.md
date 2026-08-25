@@ -10,8 +10,7 @@ only purpose.
 | | Repository | What it holds |
 |---|---|---|
 | Engine | [`engine`](https://github.com/guestgraph/engine) | The resolution engine, its specs, and its documentation |
-| Talks | [`talks`](https://github.com/guestgraph/talks) | Self-contained HTML decks · [guestgraph.io/talks](https://guestgraph.io/talks/) |
-| Landing page | [`guestgraph.github.io`](https://github.com/guestgraph/guestgraph.github.io) | The org Pages site · [guestgraph.io](https://guestgraph.io) |
+| Site | [`guestgraph.github.io`](https://github.com/guestgraph/guestgraph.github.io) | The org Pages site, decks included · [guestgraph.io](https://guestgraph.io) |
 | Organisation | `.github` | This repository — the profile above |
 
 ## Editing the profile

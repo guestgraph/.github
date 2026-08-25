@@ -20,7 +20,7 @@ So the profile carries positioning and links, and nothing that has an owner else
 | Matching behaviour, thresholds | the engine repo's `docs/matching.md` |
 | Roadmap, deferred work, status | the engine repo's `docs/roadmap-notes.md` |
 | API surface | the engine repo's `specs/*/contracts/openapi.yaml` |
-| The talk | `guestgraph/talks` |
+| The talk | `guestgraph.github.io`, at `talks/` — served at guestgraph.io/talks/ |
 | The pitch | guestgraph.io |
 
 Before adding a sentence here, ask what would have to change if the answer changed. If
