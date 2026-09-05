@@ -1,6 +1,6 @@
 # GuestGraph — Organization
 
-The organisation profile for **GuestGraph**, the open-source guest identity graph for
+The organization profile for **GuestGraph**, the open-source guest identity graph for
 hospitality. GitHub renders [`profile/README.md`](profile/README.md) at
 [github.com/guestgraph](https://github.com/guestgraph) — that file is this repository's
 only purpose.
@@ -11,7 +11,7 @@ only purpose.
 |---|---|---|
 | Engine | [`engine`](https://github.com/guestgraph/engine) | The resolution engine, its specs, and its documentation |
 | Site | [`guestgraph.github.io`](https://github.com/guestgraph/guestgraph.github.io) | The org Pages site, decks included · [guestgraph.io](https://guestgraph.io) |
-| Organisation | `.github` | This repository — the profile above |
+| Organization | `.github` | This repository — the profile above |
 
 ## Editing the profile
 
@@ -19,4 +19,4 @@ The profile links; it does not restate. Every fact it might state has an owner i
 another repository, and a copy here goes stale without anything detecting it — this page
 once advertised "Core in development" while two slices had shipped.
 
-See [CLAUDE.md](CLAUDE.md) for where each fact lives.
+See [AGENTS.md](AGENTS.md) for where each fact lives.
