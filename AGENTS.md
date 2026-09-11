@@ -29,16 +29,24 @@ restated a roadmap that lives in the engine repository. Nothing detected it — 
 one repository can validate prose in another, and the profile is the page a first-time
 visitor reads before anything else.
 
-So the profile carries positioning and links, and nothing that has an owner elsewhere:
+The lesson is about restating, not about owning. Two facts a first-time visitor needs before
+they open any repository are owned here and linked from the engine: which phases have shipped,
+and which services run and what they talk to. Everything else has an owner elsewhere and is
+linked, never repeated:
 
-| Fact | Owner — link to it |
+| Fact | Owner |
 |---|---|
+| Which phases shipped, which come next | **here**, `profile/README.md` — the engine's README links to it |
+| Which services run, what they expose and hold | **here**, `profile/README.md` — the component diagram |
 | What the product does, concepts | the engine repo's `README.md` |
-| Matching behavior, thresholds | the engine repo's `docs/matching.md` |
-| Roadmap, deferred work, status | the engine repo's `docs/roadmap-notes.md` |
+| Matching, profiles, identifiers, records, timeline, continuity | the engine repo's `docs/` — one document each |
+| Requirements captured for later slices | the engine repo's `docs/roadmap-notes.md` |
 | API surface | the engine repo's `specs/*/contracts/openapi.yaml` |
 | The talk | `guestgraph.github.io`, at `talks/` — served at guestgraph.io/talks/ |
 | The pitch | guestgraph.io |
+
+**What is owned here is owned here alone.** A phase list or a component diagram copied into a
+repository README is the same drift in the other direction, and just as invisible.
 
 Before adding a sentence here, ask what would have to change if the answer changed. If
 the answer is "a file in another repository", link to it instead.
