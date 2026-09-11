@@ -9,6 +9,7 @@ Guest data lives scattered across the PMS, POS, booking engine, loyalty program,
 | Repository | What it is |
 |---|---|
 | [**engine**](https://github.com/guestgraph/engine) | The core: identity resolution engine, guest graph, REST API |
+| [**connector-apaleo**](https://github.com/guestgraph/connector-apaleo) | The first connector: reservations and bookings from Apaleo into the guest graph, a client of the engine's API |
 | [**guestgraph.github.io**](https://github.com/guestgraph/guestgraph.github.io) | The site at [guestgraph.io](https://guestgraph.io) — landing page, billing, privacy, and the [talks](https://guestgraph.io/talks/) |
 
 **New here?** The [10-minute introduction](https://guestgraph.io/talks/intro/) is the
@@ -30,8 +31,8 @@ human whose decisions stick. Automatic fuzzy merging ships **off** —
 
 ## 🗺️ Where we are
 
-Identity resolution — deterministic and probabilistic — and the guest timeline are built.
-Connectors for real PMS, POS, and booking systems are next.
+Identity resolution — deterministic and probabilistic — the guest timeline, and the first
+connector, for Apaleo, are built. Connectors for more PMS, POS, and booking systems are next.
 
 The full roadmap, and what each phase actually delivered, lives with the code:
 [**roadmap →**](https://github.com/guestgraph/engine#roadmap)
