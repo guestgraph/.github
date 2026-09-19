@@ -1,4 +1,4 @@
-<!-- conventions · v1.17.0 -->
+<!-- conventions · v1.19.0 -->
 Shared conventions of the robertblust, guestgraph and companygraph organizations live in
 `conventions/`, vendored from robertblust/conventions at the release `conventions.json`
 names. Read them before writing or committing anything here.
@@ -11,8 +11,9 @@ names. Read them before writing or committing anything here.
 
 Everything below this block is this repository's own. `sh conventions/conventions-sync check`
 says whether the copy matches the release, `sync` brings it to the release the pin names, and
-`sh conventions/conventions-check` holds this repository's own Markdown to `WRITING.md`. Edit
-a shared file in robertblust/conventions, never here.
+`sh conventions/conventions-check` holds this repository's own Markdown to `WRITING.md`, and
+`sh conventions/conventions-format` to its one form, which `fix` writes. Edit a shared file in
+robertblust/conventions, never here.
 <!-- end conventions -->
 
 # guestgraph/.github — working conventions
@@ -35,7 +36,7 @@ and which services run and what they talk to. Everything else has an owner elsew
 linked, never repeated:
 
 | Fact | Owner |
-|---|---|
+| --- | --- |
 | Which phases shipped, which come next | **here**, `profile/README.md` — the engine's README links to it |
 | Which services run, what they expose and hold | **here**, `profile/README.md` — the component diagram |
 | What the product does, concepts | the engine repo's `README.md` |

@@ -7,7 +7,7 @@ Guest data lives scattered across the PMS, POS, booking engine, loyalty program,
 ## 🧭 Where to start
 
 | Repository | What it is |
-|---|---|
+| --- | --- |
 | [**engine**](https://github.com/guestgraph/engine) | The core: identity resolution engine, guest graph, REST API |
 | [**connector-apaleo**](https://github.com/guestgraph/connector-apaleo) | The first connector: reservations and bookings from Apaleo into the guest graph, a client of the engine's API |
 | [**guestgraph.github.io**](https://github.com/guestgraph/guestgraph.github.io) | The site at [guestgraph.io](https://guestgraph.io) — landing page, billing, privacy, and the [talks](https://guestgraph.io/talks/) |
