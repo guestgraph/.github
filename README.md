@@ -8,7 +8,7 @@ only purpose.
 ## The GuestGraph repositories
 
 | | Repository | What it holds |
-|---|---|---|
+| --- | --- | --- |
 | Engine | [`engine`](https://github.com/guestgraph/engine) | The resolution engine, its specs, and its documentation |
 | Site | [`guestgraph.github.io`](https://github.com/guestgraph/guestgraph.github.io) | The org Pages site, decks included · [guestgraph.io](https://guestgraph.io) |
 | Organization | `.github` | This repository — the profile above |
