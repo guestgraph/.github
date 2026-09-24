@@ -26,7 +26,7 @@ The lesson is about restating, not about owning. Two facts a first-time visitor 
 | Fact | Owner |
 | --- | --- |
 | Which phases shipped, which come next | **here**, `profile/README.md` — the engine's README links to it |
-| Which services run, what they expose and hold | **here**, `profile/README.md` — the two diagrams |
+| Which services run, what they expose and hold | **here**, `profile/README.md` — the diagrams under What runs |
 | What the product does, concepts | the engine repo's `README.md` |
 | Matching, profiles, identifiers, records, timeline, continuity | the engine repo's `docs/` — one document each |
 | Requirements captured for later slices | the engine repo's `docs/roadmap-notes.md` |
