@@ -26,12 +26,15 @@ The lesson is about restating, not about owning. Two facts a first-time visitor 
 | Fact | Owner |
 | --- | --- |
 | Which phases shipped, which come next | **here**, `profile/README.md` — the engine's README links to it |
-| Which services run, what they expose and hold | **here**, `profile/README.md` — the component diagram |
+| Which services run, what they expose and hold | **here**, `profile/README.md` — the two diagrams |
 | What the product does, concepts | the engine repo's `README.md` |
 | Matching, profiles, identifiers, records, timeline, continuity | the engine repo's `docs/` — one document each |
 | Requirements captured for later slices | the engine repo's `docs/roadmap-notes.md` |
 | API surface | the engine repo's `specs/*/contracts/openapi.yaml` |
 | The talk | `guestgraph.github.io`, at `talks/` — served at guestgraph.io/talks/ |
+| The talk's length | `guestgraph.github.io`'s `index.html`, the one number that site restates — this page says it in words and follows it |
+| What GuestGraph is as a company: vision, values, strategies, products, concepts | `guestgraph/mental-model` |
+| How the model's MCP server and chat are deployed | `guestgraph/mcp-guestgraph-io`'s `README.md` |
 | The pitch | guestgraph.io |
 
 **What is owned here is owned here alone.** A phase list or a component diagram copied into a repository README is the same drift in the other direction, and just as invisible.
