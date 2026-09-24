@@ -15,7 +15,7 @@ Guest data lives scattered across the PMS, POS, booking engine, loyalty program,
 | [**mental-model**](https://github.com/guestgraph/mental-model) | GuestGraph itself, described in [CompanyGraph](https://companygraph.io)'s vocabulary: vision, values, products, concepts and how the work is done |
 | [**mcp-guestgraph-io**](https://github.com/guestgraph/mcp-guestgraph-io) | [mcp.guestgraph.io](https://mcp.guestgraph.io), that model served to agents over MCP, and the chat beside it |
 
-**New here?** The [twelve-minute introduction](https://guestgraph.io/talks/intro/) is the fastest way in: why a returning guest looks like five strangers, what it costs to merge them wrongly, and how every decision stays explainable and reversible. DE · EN.
+**New here?** The [six-minute introduction](https://guestgraph.io/talks/intro/) is the fastest way in: why a returning guest looks like five strangers, what it costs to merge them wrongly, and how every decision stays explainable and reversible. DE · EN.
 
 ## 🧩 What runs
 
