@@ -10,7 +10,9 @@ Guest data lives scattered across the PMS, POS, booking engine, loyalty program,
 | --- | --- |
 | [**engine**](https://github.com/guestgraph/engine) | The core: identity resolution engine, guest graph, REST API |
 | [**connector-apaleo**](https://github.com/guestgraph/connector-apaleo) | The first connector: reservations and bookings from Apaleo into the guest graph, a client of the engine's API |
-| [**guestgraph.github.io**](https://github.com/guestgraph/guestgraph.github.io) | The site at [guestgraph.io](https://guestgraph.io) — landing page, billing, privacy, and the [talks](https://guestgraph.io/talks/) |
+| [**guestgraph.github.io**](https://github.com/guestgraph/guestgraph.github.io) | The site at [guestgraph.io](https://guestgraph.io) — landing page, the [model](https://guestgraph.io/model/) and its team, principles and surfaces, the API, billing, privacy, the [talks](https://guestgraph.io/talks/), and a chat that answers from the model |
+| [**mental-model**](https://github.com/guestgraph/mental-model) | GuestGraph itself, described in [CompanyGraph](https://companygraph.io)'s vocabulary: vision, values, products, concepts and how the work is done |
+| [**mcp-guestgraph-io**](https://github.com/guestgraph/mcp-guestgraph-io) | [mcp.guestgraph.io](https://mcp.guestgraph.io), that model served to agents over MCP, and the chat beside it |
 
 **New here?** The [10-minute introduction](https://guestgraph.io/talks/intro/) is the fastest way in: why a returning guest looks like five strangers, what it costs to merge them wrongly, and how every decision stays explainable and reversible. DE · EN.
 
