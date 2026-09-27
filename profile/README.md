@@ -11,8 +11,8 @@ Guest data lives scattered across the PMS, POS, booking engine, loyalty program,
 | [**engine**](https://github.com/guestgraph/engine) | The core: identity resolution engine, guest graph, REST API |
 | [**connector-apaleo**](https://github.com/guestgraph/connector-apaleo) | The first connector: reservations and bookings from Apaleo into the guest graph, a client of the engine's API |
 | [**service-conventions**](https://github.com/guestgraph/service-conventions) | The rules every service is held to by check: one parent build, one error shape, the architecture tests and the workflow, vendored by each service at a pinned release |
-| [**guestgraph.github.io**](https://github.com/guestgraph/guestgraph.github.io) | The site at [guestgraph.io](https://guestgraph.io) — landing page, the [model](https://guestgraph.io/model/) and its team, principles and surfaces, the API, billing, privacy, the [talks](https://guestgraph.io/talks/), and a chat that answers from the model |
-| [**mental-model**](https://github.com/guestgraph/mental-model) | GuestGraph itself, described in [CompanyGraph](https://companygraph.io)'s vocabulary: vision, values, products, concepts and how the work is done |
+| [**guestgraph.github.io**](https://github.com/guestgraph/guestgraph.github.io) | The site at [guestgraph.io](https://guestgraph.io) — landing page with the vision and values, the [model](https://guestgraph.io/model/) and its team, principles and surfaces, the API, billing, privacy, the [talks](https://guestgraph.io/talks/), and a chat that answers from the model |
+| [**mental-model**](https://github.com/guestgraph/mental-model) | GuestGraph itself, described in [CompanyGraph](https://companygraph.io)'s vocabulary: vision, values, products, concepts, the decisions the engine's specifications made and how the work is done |
 | [**mcp-guestgraph-io**](https://github.com/guestgraph/mcp-guestgraph-io) | [mcp.guestgraph.io](https://mcp.guestgraph.io), that model served to agents over MCP, and the chat beside it |
 
 **New here?** The [six-minute introduction](https://guestgraph.io/talks/intro/) is the fastest way in: why a returning guest looks like five strangers, what it costs to merge them wrongly, and how every decision stays explainable and reversible. DE · EN.
@@ -59,7 +59,7 @@ Beside the product runs a second, smaller thing: GuestGraph's own model, the pro
 flowchart TB
     subgraph gg["guestgraph"]
         GGMM["<b>mental-model</b><br/>GuestGraph, described<br/>in CompanyGraph's vocabulary"]
-        SITE["<b>guestgraph.io</b><br/>landing, the model pages,<br/>the talk, the chat button"]
+        SITE["<b>guestgraph.io</b><br/>landing with the vision,<br/>the model pages, the talk,<br/>the chat button"]
         MCPGG["<b>mcp.guestgraph.io</b><br/>the model over MCP,<br/>and chat.guestgraph.io"]
     end
 
@@ -75,7 +75,7 @@ flowchart TB
     SITE -. "the chat button asks" .-> MCPGG
 ```
 
-An agent reaches the model at `https://mcp.guestgraph.io/mcp`, listed in the MCP Registry as `io.guestgraph/mental-model`, and a visitor asks it in their own words from the button at the foot of every page of guestgraph.io. How it is deployed is in [mcp-guestgraph-io](https://github.com/guestgraph/mcp-guestgraph-io#readme).
+An agent reaches the model at `https://mcp.guestgraph.io/mcp`, listed in the MCP Registry as `io.guestgraph/mental-model`, and a visitor asks it in their own words from the button at the foot of every page of guestgraph.io, with a grouping answered as a table and a structure as a picture. How it is deployed is in [mcp-guestgraph-io](https://github.com/guestgraph/mcp-guestgraph-io#readme).
 
 ## 🧱 Principles
 
@@ -98,7 +98,7 @@ Matching is layered by confidence: shared strong identifiers merge outright, pro
 7. ✅ **Service conventions** — every service has the same shape by check, not by hand, from [service-conventions](https://github.com/guestgraph/service-conventions) at a pinned release
 8. ✅ **Shared runtime** — one error shape and the few classes every service carries, vendored as source from the same release
 9. ✅ **Removing a subscription** — an operator takes a connection's Apaleo webhook subscription away and puts it back, so tearing a deployment down leaves nothing posting to a dead address
-10. ✅ **GuestGraph's own model** — [the project described](https://github.com/guestgraph/mental-model) in CompanyGraph's vocabulary: vision, values, strategies, products, the words it means something exact by and how the work is done, drawn on [guestgraph.io/model](https://guestgraph.io/model/), served to agents over MCP and answered from in the chat
+10. ✅ **GuestGraph's own model** — [the project described](https://github.com/guestgraph/mental-model) in CompanyGraph's vocabulary: vision, values, strategies, products, the words it means something exact by, the decisions its engine's specifications made and how the work is done, drawn on [guestgraph.io/model](https://guestgraph.io/model/), served to agents over MCP and answered from in the chat
 
 Connectors for more PMS, POS, and booking systems are next. What a phase decided, and the requirements waiting for a later one, are in the engine's [roadmap notes](https://github.com/guestgraph/engine/blob/main/docs/roadmap-notes.md), which feed each slice's specification.
 
