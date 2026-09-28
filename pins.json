@@ -1,0 +1,6 @@
+{
+  "pins": [
+    { "kind": "conventions", "file": "conventions.json", "repo": "robertblust/conventions" }
+  ],
+  "verify": ["sh conventions/conventions-check", "sh conventions/conventions-format"]
+}
