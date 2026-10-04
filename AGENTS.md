@@ -33,7 +33,7 @@ The lesson is about restating, not about owning. Two facts a first-time visitor 
 | Requirements captured for later slices | the engine repo's `docs/roadmap-notes.md` |
 | API surface | the engine repo's `specs/*/contracts/openapi.yaml` |
 | The talk | `guestgraph.github.io`, at `talks/` — served at guestgraph.io/talks/ |
-| The talk's length | `guestgraph.github.io`'s `index.html`, the one number that site restates — this page says it in words and follows it |
+| The talk's length | `guestgraph.github.io`'s `index.html`, the one number that site restates — this page calls the introduction short and names no length, so it has nothing to follow |
 | What GuestGraph is as a company: vision, values, strategies, products, concepts | `guestgraph/mental-model` |
 | How the model's MCP server and chat are deployed | `guestgraph/mcp-guestgraph-io`'s `README.md` |
 | The pitch | guestgraph.io |
