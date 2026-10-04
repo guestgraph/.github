@@ -15,7 +15,7 @@ Guest data lives scattered across the PMS, POS, booking engine, loyalty program,
 | [**mental-model**](https://github.com/guestgraph/mental-model) | GuestGraph itself, described in [CompanyGraph](https://companygraph.io)'s vocabulary: vision, values, products, concepts, the decisions the engine's specifications made and how the work is done |
 | [**mcp-guestgraph-io**](https://github.com/guestgraph/mcp-guestgraph-io) | [mcp.guestgraph.io](https://mcp.guestgraph.io), that model served to agents over MCP, and the chat beside it |
 
-**New here?** The [six-minute introduction](https://guestgraph.io/talks/intro/) is the fastest way in: why a returning guest looks like five strangers, what it costs to merge them wrongly, and how every decision stays explainable and reversible. DE · EN.
+**New here?** The [short introduction](https://guestgraph.io/talks/intro/) is the fastest way in: why a returning guest looks like five strangers, what it costs to merge them wrongly, and how every decision stays explainable and reversible. DE · EN.
 
 ## 🧩 What runs
 
@@ -68,10 +68,17 @@ flowchart TB
         SRV["<b>mcp-server</b> · <b>chat-server</b>"]
     end
 
+    subgraph rb["robertblust"]
+        DES["<b>design</b><br/>the design system"]
+    end
+
     MM -- "core vendored at a release" --> GGMM
+    MM -- "parser pinned by tag" --> SITE
     GGMM -- "pinned by commit · builds the model pages" --> SITE
     GGMM -- "pinned by commit · parsed into a snapshot" --> MCPGG
     SRV -- "pinned by tag" --> MCPGG
+    SRV -- "mcp-server pinned by tag · draws the diagrams" --> SITE
+    DES -- "pinned by tag" --> SITE & MCPGG
     SITE -. "the chat button asks" .-> MCPGG
 ```
 
